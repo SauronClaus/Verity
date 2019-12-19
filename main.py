@@ -1,1 +1,1 @@
-print("\n\nHelp me I have no clue what I'm doing")
+from sagedining.core import Sage
