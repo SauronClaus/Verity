@@ -1,4 +1,4 @@
-from  import Sage, SageMenuItem, MenuCategory, Meal
+from python_sagedining.sagedining.core import Sage, SageMenuItem, MenuCategory, Meal
 #imports!
 import datetime
 
