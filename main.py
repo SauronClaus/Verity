@@ -1,6 +1,17 @@
 from python_sagedining.sagedining.core import Sage, SageMenuItem, MenuCategory, Meal
 #imports!
 import datetime
+import openweather
+import requests
+
+    
+ow = openweather.OpenWeather()
+stations = ow.find_stations_near(
+    78.8,  # longitude
+    35.7, # latitude
+    100   # kilometer radius
+)
+
 
 sage_object = Sage("S0085")
 #CA is S0085
